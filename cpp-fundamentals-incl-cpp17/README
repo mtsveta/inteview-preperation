@@ -1,0 +1,16 @@
+README
+
+Important points: 
+
+- Building with g++ compiler:
+
+$ g++ main.cpp Person.cpp Twitter.cpp Utility.cpp Resource.cpp -std=c++11 -o main
+$ ./main
+
+- Building with cmake (from the termimnal):
+
+$ cmake . // to compile with current options and create the CMakeCahce.txt
+$ ccmake . // to configure new options, i.e., new c and cpp compilers 
+$ cmake .
+$ make
+
